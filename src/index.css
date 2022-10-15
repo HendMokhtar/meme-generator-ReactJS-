@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Karla", sans-serif;
+  margin: 0;
+}
+.container {
+  max-width: 800px;
+}
+.header {
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px
+}
+.header .leftSide {
+  display: flex;
+  align-items: center;
+  column-gap: 5px
+}
+.header .leftSide img {
+ width: 31.31px;
+ height: 26.22px;
+}
+.header .leftSide h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20.7482px;
+  line-height: 24px;
+  letter-spacing: -0.1em;
+  color: #FFFFFF;
+}
+.header .rightSide h2 {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: right;
+  color: #FFFFFF;
+}
+.memeForm input{
+  color: #0D0D0D;
+  font-family: "Karla", sans-serif;
+  padding: 15px;
+}
+.memeForm .btn-block {
+  background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 15px 0;
+}
+.memeForm .btn-block:active {
+  background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%) !important;
+}
+
+.meme {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.meme img {
+  width: 600px;
+  height: 330px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+
+.memeText {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow:      2px 2px 0 #000,      -2px -2px 0 #000,      2px -2px 0 #000,      -2px 2px 0 #000,      0 2px 0 #000,      2px 0 0 #000,      0 -2px 0 #000,      -2px 0 0 #000,      2px 2px 5px #000;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+
+.bottom {
+  bottom: 0;
+}
+
+.top {
+  top: 0;
+}
